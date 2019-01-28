@@ -1,0 +1,53 @@
+mongo db : un cran en dessous pour faire les "liens" de chapitre d'un cours dans la graph neo4j
+
+{
+  "_id": "2134213fsjofs"
+  "title": "Apprenez à programmer en Java",
+  "durée": "4:00",
+  "niveau": "3",	//(le niveau sera compris entre 1 et 3 -> facile, moyen, difficile)
+  "intro": "blablalblbalblbalblblblablalbalblbalbalblalblbalblbl",
+  "auteur": "Jean-Michel Mailliu",
+  "visible": false
+  "chapitres": [
+    {
+    "numero" : 1
+    "sous-parties": [
+      {
+	    "numero" : 1
+	    "titre" : "fodsufds"
+        "contenu" : "couvfouzogfiezaujmoifjezf moizaef ujmezaifjezamfomujmeza mjfmoiezaf jmoizujfza jmouf"},
+	    "exercice": [
+		    {
+		    "numero" : 1
+		    "titre" : "blablkbaljba"
+		    "reponses": [
+			  {
+			  "id": 2432
+			  "valide": true
+			  "contenu": "foeziffmozij"
+			  },
+			  {
+			  "id": 2436
+			  "valide": false
+			  "contenu": "foeziffmozij"
+              }
+			},
+			{
+		    "numero" : 2 
+		    "titre" : "blablkbaljba"
+		    "reponses": [
+			  {
+			  "id": 2432
+			  "valide": true
+			  "contenu": "foeziffmozij"
+			  },
+			  {
+			  "id": 2436
+			  "valide": false
+			  "contenu": "foeziffmozij"
+              }
+			}
+	    ]
+	]
+  ]
+}
