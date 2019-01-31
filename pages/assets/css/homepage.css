@@ -1,0 +1,59 @@
+
+/* LessonListItems begin */
+.LessonListItems {
+  display: flex;
+  flex-direction: line;
+  flex-wrap: wrap;
+}
+/* LessonListItems end */
+
+/* lessonPresentationSheet begin */
+.LessonPresentationSheet .LessonPresentationSheetTitle {
+  text-align: center;
+  height: 10%;
+}
+
+.LessonPresentationSheet .PresentationSheetInfoBar li {
+  margin: 2px 2px;
+  display:inline;
+}
+
+.LessonPresentationSheet .PresentationSheetInfoBar ul {
+  margin: 2px 2px;
+  list-style-type:none;
+  padding-left: 0px;
+  color: #0099ff; 
+  height: 10%;
+}
+
+.LessonPresentationSheet .PresentationSheetInfoBar li img {
+  width:47px;
+  margin: 2px 2px;
+  vertical-align:middle;
+}
+
+.LessonPresentationSheet .LessonPresentationSheetIntro {
+  text-align: justify;
+  /*height: 20%;*/
+  /*overflow: auto;*/
+}
+
+.LessonPresentationSheet div {
+  margin: 0 4%;
+}
+
+.LessonPresentationSheet img {
+  max-width:92%;
+  /*height: 52%;*/
+  margin: 10px;
+}
+
+.LessonPresentationSheet {
+  text-align: center;
+  background-color: lightgrey;
+  font-size: 24px;
+  margin: 14px 14px;
+  max-width: 480px;
+  overflow: hidden;
+}
+/* lessonPresentationSheet end */

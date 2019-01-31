@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- page pour créer un compte : 
+	createNewAccount.html + formulaire -> mdp hashé & salé -> createNewUser(String login, String mdpHashé&Salé)
+-->
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+
+<div id="root"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+
+<script type="text/babel">
+
+class Game extends React.Component {
+  render() {
+    return (
+      <div className="game">
+		<p>J'aime React</p>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Game />,
+  document.getElementById("root")
+);
+</script>
+
+</body>
+</html>
