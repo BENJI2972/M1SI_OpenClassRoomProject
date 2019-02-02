@@ -1,12 +1,4 @@
 
-/* LessonListItems begin */
-.LessonListItems {
-  display: flex;
-  flex-direction: line;
-  flex-wrap: wrap;
-}
-/* LessonListItems end */
-
 /* lessonPresentationSheet begin */
 .LessonPresentationSheet .LessonPresentationSheetTitle {
   text-align: center;
@@ -16,6 +8,9 @@
 .LessonPresentationSheet .PresentationSheetInfoBar li {
   margin: 2px 2px;
   display:inline;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .LessonPresentationSheet .PresentationSheetInfoBar ul {
@@ -24,6 +19,11 @@
   padding-left: 0px;
   color: #0099ff; 
   height: 10%;
+  
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .LessonPresentationSheet .PresentationSheetInfoBar li img {
@@ -34,8 +34,6 @@
 
 .LessonPresentationSheet .LessonPresentationSheetIntro {
   text-align: justify;
-  /*height: 20%;*/
-  /*overflow: auto;*/
 }
 
 .LessonPresentationSheet div {
@@ -44,16 +42,17 @@
 
 .LessonPresentationSheet img {
   max-width:92%;
-  /*height: 52%;*/
-  margin: 10px;
+  margin: 18px;
 }
 
 .LessonPresentationSheet {
   text-align: center;
   background-color: lightgrey;
   font-size: 24px;
-  margin: 14px 14px;
-  max-width: 480px;
   overflow: hidden;
+}
+
+.LessonPresentationSheet_container {
+  padding: 9px 9px;
 }
 /* lessonPresentationSheet end */
