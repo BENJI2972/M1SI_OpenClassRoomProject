@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- page pour se connecter : 
+	connection.html + formulaire -> mdp hashé & salé -> logInAdUser(String login, String mdpHashé&Salé)
+-->
+
+<html>
+
+<head>
+
+  <!-- jQuery CDN begin -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <!-- jQuery CDN begin -->
+  
+  <!-- React CDN begin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+  <!-- React CDN end -->
+  
+  <!-- Bootstrap CDN begin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN end -->
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+  <script src="./plugData.js"></script>
+    
+  <script type="text/babel">
+
+    class Game extends React.Component {
+      render() {
+        return (
+          <div className="game">
+        <p>J'aime React</p>
+          </div>
+        );
+      }
+    }
+
+    ReactDOM.render(
+      <Game />,
+      document.getElementById("root")
+    );
+  </script>
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+</body>
+
+</html>

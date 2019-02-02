@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<!-- page pour afficher l'accueil : 
+	getListCours() -> JSON -> traitement TS/JS -> homepage.html 
+-->
+
+<html>
+
+<head>
+
+  <!-- jQuery CDN begin -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <!-- jQuery CDN begin -->
+  
+  <!-- React CDN begin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+  <!-- React CDN end -->
+  
+  <!-- Bootstrap CDN begin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN end -->
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/homepage.css">
+  <script src="../plugData/plugData.js"></script>
+  
+  <script type="text/babel">
+
+    class LessonPresentationSheet extends React.Component {
+
+      renderInfoBar() {
+        return (
+          <div className="PresentationSheetInfoBar">
+             <ul>
+              <li><img src="../assets/img/lessonList/presentationSheet/lessonTime_logo.png" alt=""></img> {this.props.lessonJSON.durée}</li>
+              <li><img src="../assets/img/lessonList/presentationSheet/difficulty_logo.png" alt=""></img>{this.props.lessonJSON.niveau}</li>
+              <li><img src="../assets/img/lessonList/presentationSheet/madeByAuthor_logo.png" alt=""></img>{this.props.lessonJSON.auteur}</li>
+            </ul> 
+          </div>
+        );
+      }
+
+      render() {
+        return (
+        
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 LessonPresentationSheet_container">
+            <div className="LessonPresentationSheet">
+              <div className="LessonPresentationSheetTitle">{this.props.lessonJSON.title}</div>
+              {this.renderInfoBar()}
+              <div className="LessonPresentationSheetIntro">{this.props.lessonJSON.intro}</div>
+              <img src={this.props.lessonJSON.imageURL} alt={this.props.lessonJSON.imageURL}></img>
+            </div>
+          </div>
+        );
+      }
+    }
+
+    class LessonList extends React.Component {
+
+      renderLessonPresentationSheet(data) {
+        return (
+          <LessonPresentationSheet
+            lessonJSON={data}
+          />
+        );
+      }
+      
+      render() {
+        return (
+        
+          <div className="LessonList">
+            <h2>Liste des cours :</h2>
+            
+            <div className="LessonListItems">
+              <div className="container-fluid">
+                <div className="row">
+                  {this.renderLessonPresentationSheet(plugData_lesson1)}
+                  {this.renderLessonPresentationSheet(plugData_lesson1)}
+                  {this.renderLessonPresentationSheet(plugData_lesson1)}
+                  {this.renderLessonPresentationSheet(plugData_lesson1)}
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        );
+      }
+    }
+
+    ReactDOM.render(
+      <LessonList />,
+      document.getElementById("root")
+    );
+  </script>
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+</body>
+
+</html>
