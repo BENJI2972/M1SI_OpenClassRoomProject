@@ -25,23 +25,75 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Bootstrap CDN end -->
   
-  <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
-  <script src="./plugData.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/css/lesson.css">
+  <script src="../plugData/plugData.js"></script>
     
   <script type="text/babel">
 
-    class Game extends React.Component {
+  
+    class LessonDetailSheet extends React.Component {
+
+      renderInfoBar() {
+        return (
+          <div className="DetailSheetInfoBar">
+             <ul>
+              <li><img src="../assets/img/lessonList/presentationSheet/lessonTime_logo.png" alt=""></img> {this.props.lessonJSON.durée}</li>
+              <li><img src="../assets/img/lessonList/presentationSheet/difficulty_logo.png" alt=""></img>{this.props.lessonJSON.niveau}</li>
+              <li><img src="../assets/img/lessonList/presentationSheet/madeByAuthor_logo.png" alt=""></img>{this.props.lessonJSON.auteur}</li>
+            </ul> 
+          </div>
+        );
+      }
+
       render() {
         return (
-          <div className="game">
-        <p>J'aime React</p>
+        
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 LessonDetailSheet_container">
+            <div className="LessonDetailSheet">
+			  <br/>
+              <div className="LessonDetailSheetTitle">{this.props.lessonJSON.title}</div>
+			  <br/>
+              {this.renderInfoBar()}
+			  <br/>
+              <div className="LessonDetailSheetIntro">{this.props.lessonJSON.intro}</div>
+              <img src={this.props.lessonJSON.imageURL} alt={this.props.lessonJSON.imageURL}></img>
+			  <br/><br/>
+              <div className="LessonDetailSheetContentTitle">{this.props.lessonJSON['chapitres'][0]['sous-parties'][0].titre}</div>
+			  <br/>
+              <div className="LessonDetailSheetContent">{this.props.lessonJSON['chapitres'][0]['sous-parties'][0].contenu}</div>
+            </div>
+          </div>
+        );
+      }
+    }
+	
+    class LessonDetail extends React.Component {
+	
+      renderLessonDetailSheet(data) {
+        return (
+          <LessonDetailSheet
+            lessonJSON={data}
+          />
+        );
+      }
+	  
+      render() {
+        return (
+          <div className="LessonDetail" >
+            <h2>Detail du cours :</h2>
+			
+              <div className="container-fluid">
+                <div className="row">
+				  {this.renderLessonDetailSheet(plugData_lesson1)}
+				</div>
+			  </div>
           </div>
         );
       }
     }
 
     ReactDOM.render(
-      <Game />,
+      <LessonDetail />,
       document.getElementById("root")
     );
   </script>
