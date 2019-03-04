@@ -3,3 +3,10 @@
 # Dependency directories
 ServeurJS/node_modules/
 .git
+
+
+#React/node serveur part
+React/node_modules/
+React/package-lock.json
+React/client/node_modules/
+React/client/package-lock.json
