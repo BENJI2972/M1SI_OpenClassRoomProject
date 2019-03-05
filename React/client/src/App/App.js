@@ -16,7 +16,7 @@ class App extends Component {
           <Route path='/list' component={List}/>
 		      <Route path='/user' component={User}/>
 		      <Route path='/lessonlist' component={LessonList}/>
-		      <Route path='/lessondetail' component={LessonDetail}/>
+		      <Route path='/lessondetail/:lesson_id/:chapter_id' component={LessonDetail}/>
         </Switch>
       </div>
     )

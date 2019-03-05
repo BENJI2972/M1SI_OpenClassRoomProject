@@ -39,12 +39,9 @@ app.get('/lessonlist', (req,res) => {
 	});
 });
 
-// TODO : récupérer le champ id d'une URL ex '/lessondetail?id=47'
 // lessondetail : shows the lesson detailled view
-app.get('/lessondetail', (req,res) => {
-	//mongodb.connectionMongoDB(mongodb.findDocuments, {_id: req.params.id + ""},
-	  //console.log(req.params.id + "");
-  mongodb.connectionMongoDB(mongodb.findDocuments, {},
+app.get('/lessondetail/:lesson_id/:chapter_id', (req,res) => {
+	mongodb.connectionMongoDB(mongodb.findDocuments, {_id: req.params.lesson_id + ""},
 		(list)=> {console.log(list);
 		res.json(list);
 		console.log('Sent list of items');
@@ -53,7 +50,7 @@ app.get('/lessondetail', (req,res) => {
 
 // Handles any requests that don't match the ones above
 app.get('*', (req,res) =>{
-	res.sendFile(path.join(__dirname+'/client/build/index.html'));
+	res.sendFile(path.join(__dirname+'/client/public/index.html'));
 });
 
 const port = process.env.PORT || 3132;

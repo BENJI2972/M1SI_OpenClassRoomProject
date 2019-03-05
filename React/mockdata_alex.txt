@@ -1,0 +1,1048 @@
+let plugData_TypeScript = {
+  _id: "1",
+  "title": "Apprenez à programmer en TypeScript",
+  "durée": "3:47",
+  "niveau": "3",	//(le niveau sera compris entre 1 et 3 -> facile, moyen, difficile)
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit scelerisque congue. Vivamus pharetra tempor urna. Ut dapibus tristique ultricies. Duis ut ipsum congue, rhoncus purus et, luctus urna. Suspendisse fringilla auctor ligula, nec volutpat justo accumsan vitae. Suspendisse potenti. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  "auteur": "Alexandre Mailliu",
+  "imageURL": "https://i.ytimg.com/vi/BCr7y4SLhck/maxresdefault.jpg",
+  "visible": true,
+  "chapitres": [
+    {
+      "id_chapitre" : "typescript_c1",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "typescript_c1_sp1",
+          "titre" : "chapitre 1 sp1",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo. Nam vitae dictum nulla, in venenatis tellus. Donec rutrum elit nisl, vitae cursus est semper eu. Vivamus in vehicula velit, ut fermentum libero. Aenean tincidunt nibh nulla, quis bibendum risus aliquam a. Fusce posuere elit velit. Suspendisse bibendum massa eu arcu vulputate, ac pretium sapien fermentum. Nulla facilisi. Fusce lectus nibh, cursus et massa quis, sollicitudin viverra augue. Nunc ultrices lectus elit, vitae sollicitudin lacus varius nec. Fusce finibus efficitur auctor. Donec sed elementum odio. Quisque vulputate pharetra lectus nec molestie. Pellentesque vitae ex est. Nulla fermentum leo non dignissim dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem. Nam elementum at nisi et feugiat. Nulla varius vel turpis in placerat. Praesent et tincidunt magna, a interdum tortor. Ut egestas purus nibh, sed dapibus sapien sollicitudin non. Nam felis lorem, bibendum eu nisi placerat, congue faucibus erat. Quisque congue a nibh at aliquam. In sem eros, vehicula eu faucibus sed, scelerisque et erat. Donec pretium est vitae dolor varius euismod. Integer consequat efficitur ipsum, id placerat tellus sollicitudin vel. Donec condimentum justo arcu, quis convallis urna consequat sit amet. Duis commodo tortor quis velit varius, in euismod diam consequat. Maecenas semper ipsum sed mauris luctus blandit. Aliquam sapien nunc, laoreet sed ante ut, luctus fermentum urna. Suspendisse eros mi, ullamcorper ut nisl facilisis, rhoncus pulvinar est. Cras tempus pharetra commodo. Sed elit dolor, dignissim id tortor sit amet, mollis aliquam lacus. Maecenas hendrerit, mauris vitae ultricies hendrerit, felis nunc porta metus, convallis consequat purus metus a libero. Phasellus pellentesque a massa sit amet egestas. Nunc viverra eros ac sem vulputate tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce congue nunc vitae purus dictum interdum. Nam elementum elit velit. Maecenas quis sem non velit pretium placerat. Aliquam a tristique orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat et nunc eget facilisis. In pharetra commodo arcu vel dignissim. Cras eu viverra eros. Phasellus lobortis lectus vel tortor hendrerit, nec porttitor orci ornare. Praesent fermentum vehicula mi, in dapibus mi vulputate sit amet. Vivamus eget ipsum congue, pharetra tortor vitae, aliquam erat. Cras placerat volutpat placerat. Nunc a vehicula nunc. Mauris tincidunt dapibus scelerisque. Nulla pretium pharetra erat quis semper. Proin tempor pretium placerat. ",
+          "exercice" : [
+            {
+              "numero" : 1,
+              "titre" : "exerciso uno",
+              "reponses": [
+                {
+                  "id": 2,
+                  "valide": true,
+                  "contenu": "Vivamus in vehicula velit, ut fermentum libero."
+                },
+                {
+                  "id": 3,
+                  "valide": false,
+                  "contenu": "Quisque vulputate pharetra lectus nec molestie."
+                }
+              ],
+            },
+            {
+              "numero" : 2 ,
+              "titre" : "exerciso dose",
+              "reponses": [
+                {
+                  "id": 4,
+                  "valide": true,
+                  "contenu": "Nulla fermentum leo non dignissim dapibus."
+                },
+                {
+                  "id": 5,
+                  "valide": false,
+                  "contenu": "Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_sous_partie" : "typescript_c1_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c1_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c1_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c1_sp5",
+          "titre" : "chapitre 1 sp5",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c1_sp6",
+          "titre" : "chapitre 1 sp6",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "typescript_c2",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "typescript_c2_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c2_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c2_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c2_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "typescript_c3",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "typescript_c3_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c3_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c3_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c3_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "typescript_c4",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "typescript_c4_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c4_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c4_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c4_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "typescript_c5",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "typescript_c5_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c5_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c5_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c5_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "typescript_c6",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "typescript_c6_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c6_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c6_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "typescript_c6_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    }
+  ]
+};
+
+
+
+
+let plugData_JavaScript = {
+  _id: "2",
+  "title": "Apprenez à programmer en JavaScript",
+  "durée": "1:66",
+  "niveau": "4",	//(le niveau sera compris entre 1 et 3 -> facile, moyen, difficile)
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit scelerisque congue. Vivamus pharetra tempor urna. Ut dapibus tristique ultricies. Duis ut ipsum congue, rhoncus purus et, luctus urna. Suspendisse fringilla auctor ligula, nec volutpat justo accumsan vitae. Suspendisse potenti. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  "auteur": "Alexandre Mailliu",
+  "imageURL": "https://i.ytimg.com/vi/BCr7y4SLhck/maxresdefault.jpg",
+  "visible": true,
+  "chapitres": [
+    {
+      "id_chapitre" : "javascript_c1",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "javascript_c1_sp1",
+          "titre" : "chapitre 1 sp1",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo. Nam vitae dictum nulla, in venenatis tellus. Donec rutrum elit nisl, vitae cursus est semper eu. Vivamus in vehicula velit, ut fermentum libero. Aenean tincidunt nibh nulla, quis bibendum risus aliquam a. Fusce posuere elit velit. Suspendisse bibendum massa eu arcu vulputate, ac pretium sapien fermentum. Nulla facilisi. Fusce lectus nibh, cursus et massa quis, sollicitudin viverra augue. Nunc ultrices lectus elit, vitae sollicitudin lacus varius nec. Fusce finibus efficitur auctor. Donec sed elementum odio. Quisque vulputate pharetra lectus nec molestie. Pellentesque vitae ex est. Nulla fermentum leo non dignissim dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem. Nam elementum at nisi et feugiat. Nulla varius vel turpis in placerat. Praesent et tincidunt magna, a interdum tortor. Ut egestas purus nibh, sed dapibus sapien sollicitudin non. Nam felis lorem, bibendum eu nisi placerat, congue faucibus erat. Quisque congue a nibh at aliquam. In sem eros, vehicula eu faucibus sed, scelerisque et erat. Donec pretium est vitae dolor varius euismod. Integer consequat efficitur ipsum, id placerat tellus sollicitudin vel. Donec condimentum justo arcu, quis convallis urna consequat sit amet. Duis commodo tortor quis velit varius, in euismod diam consequat. Maecenas semper ipsum sed mauris luctus blandit. Aliquam sapien nunc, laoreet sed ante ut, luctus fermentum urna. Suspendisse eros mi, ullamcorper ut nisl facilisis, rhoncus pulvinar est. Cras tempus pharetra commodo. Sed elit dolor, dignissim id tortor sit amet, mollis aliquam lacus. Maecenas hendrerit, mauris vitae ultricies hendrerit, felis nunc porta metus, convallis consequat purus metus a libero. Phasellus pellentesque a massa sit amet egestas. Nunc viverra eros ac sem vulputate tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce congue nunc vitae purus dictum interdum. Nam elementum elit velit. Maecenas quis sem non velit pretium placerat. Aliquam a tristique orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat et nunc eget facilisis. In pharetra commodo arcu vel dignissim. Cras eu viverra eros. Phasellus lobortis lectus vel tortor hendrerit, nec porttitor orci ornare. Praesent fermentum vehicula mi, in dapibus mi vulputate sit amet. Vivamus eget ipsum congue, pharetra tortor vitae, aliquam erat. Cras placerat volutpat placerat. Nunc a vehicula nunc. Mauris tincidunt dapibus scelerisque. Nulla pretium pharetra erat quis semper. Proin tempor pretium placerat. ",
+          "exercice" : [
+            {
+              "numero" : 1,
+              "titre" : "exerciso uno",
+              "reponses": [
+                {
+                  "id": 2,
+                  "valide": true,
+                  "contenu": "Vivamus in vehicula velit, ut fermentum libero."
+                },
+                {
+                  "id": 3,
+                  "valide": false,
+                  "contenu": "Quisque vulputate pharetra lectus nec molestie."
+                }
+              ],
+            },
+            {
+              "numero" : 2 ,
+              "titre" : "exerciso dose",
+              "reponses": [
+                {
+                  "id": 4,
+                  "valide": true,
+                  "contenu": "Nulla fermentum leo non dignissim dapibus."
+                },
+                {
+                  "id": 5,
+                  "valide": false,
+                  "contenu": "Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_sous_partie" : "javascript_c1_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c1_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c1_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c1_sp5",
+          "titre" : "chapitre 1 sp5",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c1_sp6",
+          "titre" : "chapitre 1 sp6",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "javascript_c2",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "javascript_c2_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c2_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c2_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c2_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "javascript_c3",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "javascript_c3_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c3_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c3_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c3_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "javascript_c4",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "javascript_c4_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c4_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c4_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c4_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "javascript_c5",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "javascript_c5_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c5_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c5_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c5_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "javascript_c6",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "javascript_c6_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c6_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c6_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "javascript_c6_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    }
+  ]
+};
+
+
+let plugData_React = {
+  _id: "3",
+  "title": "Apprenez à programmer en React",
+  "durée": "2:62",
+  "niveau": "2",	//(le niveau sera compris entre 1 et 3 -> facile, moyen, difficile)
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit scelerisque congue. Vivamus pharetra tempor urna. Ut dapibus tristique ultricies. Duis ut ipsum congue, rhoncus purus et, luctus urna. Suspendisse fringilla auctor ligula, nec volutpat justo accumsan vitae. Suspendisse potenti. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  "auteur": "Alexandre Mailliu",
+  "imageURL": "https://i.ytimg.com/vi/BCr7y4SLhck/maxresdefault.jpg",
+  "visible": true,
+  "chapitres": [
+    {
+      "id_chapitre" : "react_c1",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "react_c1_sp1",
+          "titre" : "chapitre 1 sp1",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo. Nam vitae dictum nulla, in venenatis tellus. Donec rutrum elit nisl, vitae cursus est semper eu. Vivamus in vehicula velit, ut fermentum libero. Aenean tincidunt nibh nulla, quis bibendum risus aliquam a. Fusce posuere elit velit. Suspendisse bibendum massa eu arcu vulputate, ac pretium sapien fermentum. Nulla facilisi. Fusce lectus nibh, cursus et massa quis, sollicitudin viverra augue. Nunc ultrices lectus elit, vitae sollicitudin lacus varius nec. Fusce finibus efficitur auctor. Donec sed elementum odio. Quisque vulputate pharetra lectus nec molestie. Pellentesque vitae ex est. Nulla fermentum leo non dignissim dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem. Nam elementum at nisi et feugiat. Nulla varius vel turpis in placerat. Praesent et tincidunt magna, a interdum tortor. Ut egestas purus nibh, sed dapibus sapien sollicitudin non. Nam felis lorem, bibendum eu nisi placerat, congue faucibus erat. Quisque congue a nibh at aliquam. In sem eros, vehicula eu faucibus sed, scelerisque et erat. Donec pretium est vitae dolor varius euismod. Integer consequat efficitur ipsum, id placerat tellus sollicitudin vel. Donec condimentum justo arcu, quis convallis urna consequat sit amet. Duis commodo tortor quis velit varius, in euismod diam consequat. Maecenas semper ipsum sed mauris luctus blandit. Aliquam sapien nunc, laoreet sed ante ut, luctus fermentum urna. Suspendisse eros mi, ullamcorper ut nisl facilisis, rhoncus pulvinar est. Cras tempus pharetra commodo. Sed elit dolor, dignissim id tortor sit amet, mollis aliquam lacus. Maecenas hendrerit, mauris vitae ultricies hendrerit, felis nunc porta metus, convallis consequat purus metus a libero. Phasellus pellentesque a massa sit amet egestas. Nunc viverra eros ac sem vulputate tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce congue nunc vitae purus dictum interdum. Nam elementum elit velit. Maecenas quis sem non velit pretium placerat. Aliquam a tristique orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat et nunc eget facilisis. In pharetra commodo arcu vel dignissim. Cras eu viverra eros. Phasellus lobortis lectus vel tortor hendrerit, nec porttitor orci ornare. Praesent fermentum vehicula mi, in dapibus mi vulputate sit amet. Vivamus eget ipsum congue, pharetra tortor vitae, aliquam erat. Cras placerat volutpat placerat. Nunc a vehicula nunc. Mauris tincidunt dapibus scelerisque. Nulla pretium pharetra erat quis semper. Proin tempor pretium placerat. ",
+          "exercice" : [
+            {
+              "numero" : 1,
+              "titre" : "exerciso uno",
+              "reponses": [
+                {
+                  "id": 2,
+                  "valide": true,
+                  "contenu": "Vivamus in vehicula velit, ut fermentum libero."
+                },
+                {
+                  "id": 3,
+                  "valide": false,
+                  "contenu": "Quisque vulputate pharetra lectus nec molestie."
+                }
+              ],
+            },
+            {
+              "numero" : 2 ,
+              "titre" : "exerciso dose",
+              "reponses": [
+                {
+                  "id": 4,
+                  "valide": true,
+                  "contenu": "Nulla fermentum leo non dignissim dapibus."
+                },
+                {
+                  "id": 5,
+                  "valide": false,
+                  "contenu": "Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_sous_partie" : "react_c1_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c1_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c1_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c1_sp5",
+          "titre" : "chapitre 1 sp5",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c1_sp6",
+          "titre" : "chapitre 1 sp6",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "react_c2",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "react_c2_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c2_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c2_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c2_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "react_c3",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "react_c3_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c3_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c3_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c3_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "react_c4",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "react_c4_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c4_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c4_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c4_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "react_c5",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "react_c5_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c5_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c5_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c5_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "react_c6",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "react_c6_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c6_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c6_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "react_c6_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    }
+  ]
+};
+
+
+
+let plugData_Node = {
+  _id: "4",
+  "title": "Apprenez à programmer en Node.js",
+  "durée": "14:47",
+  "niveau": "2",	//(le niveau sera compris entre 1 et 3 -> facile, moyen, difficile)
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit scelerisque congue. Vivamus pharetra tempor urna. Ut dapibus tristique ultricies. Duis ut ipsum congue, rhoncus purus et, luctus urna. Suspendisse fringilla auctor ligula, nec volutpat justo accumsan vitae. Suspendisse potenti. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  "auteur": "Alexandre Mailliu",
+  "imageURL": "https://i.ytimg.com/vi/BCr7y4SLhck/maxresdefault.jpg",
+  "visible": true,
+  "chapitres": [
+    {
+      "id_chapitre" : "node_c1",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "node_c1_sp1",
+          "titre" : "chapitre 1 sp1",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo. Nam vitae dictum nulla, in venenatis tellus. Donec rutrum elit nisl, vitae cursus est semper eu. Vivamus in vehicula velit, ut fermentum libero. Aenean tincidunt nibh nulla, quis bibendum risus aliquam a. Fusce posuere elit velit. Suspendisse bibendum massa eu arcu vulputate, ac pretium sapien fermentum. Nulla facilisi. Fusce lectus nibh, cursus et massa quis, sollicitudin viverra augue. Nunc ultrices lectus elit, vitae sollicitudin lacus varius nec. Fusce finibus efficitur auctor. Donec sed elementum odio. Quisque vulputate pharetra lectus nec molestie. Pellentesque vitae ex est. Nulla fermentum leo non dignissim dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem. Nam elementum at nisi et feugiat. Nulla varius vel turpis in placerat. Praesent et tincidunt magna, a interdum tortor. Ut egestas purus nibh, sed dapibus sapien sollicitudin non. Nam felis lorem, bibendum eu nisi placerat, congue faucibus erat. Quisque congue a nibh at aliquam. In sem eros, vehicula eu faucibus sed, scelerisque et erat. Donec pretium est vitae dolor varius euismod. Integer consequat efficitur ipsum, id placerat tellus sollicitudin vel. Donec condimentum justo arcu, quis convallis urna consequat sit amet. Duis commodo tortor quis velit varius, in euismod diam consequat. Maecenas semper ipsum sed mauris luctus blandit. Aliquam sapien nunc, laoreet sed ante ut, luctus fermentum urna. Suspendisse eros mi, ullamcorper ut nisl facilisis, rhoncus pulvinar est. Cras tempus pharetra commodo. Sed elit dolor, dignissim id tortor sit amet, mollis aliquam lacus. Maecenas hendrerit, mauris vitae ultricies hendrerit, felis nunc porta metus, convallis consequat purus metus a libero. Phasellus pellentesque a massa sit amet egestas. Nunc viverra eros ac sem vulputate tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce congue nunc vitae purus dictum interdum. Nam elementum elit velit. Maecenas quis sem non velit pretium placerat. Aliquam a tristique orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat et nunc eget facilisis. In pharetra commodo arcu vel dignissim. Cras eu viverra eros. Phasellus lobortis lectus vel tortor hendrerit, nec porttitor orci ornare. Praesent fermentum vehicula mi, in dapibus mi vulputate sit amet. Vivamus eget ipsum congue, pharetra tortor vitae, aliquam erat. Cras placerat volutpat placerat. Nunc a vehicula nunc. Mauris tincidunt dapibus scelerisque. Nulla pretium pharetra erat quis semper. Proin tempor pretium placerat. ",
+          "exercice" : [
+            {
+              "numero" : 1,
+              "titre" : "exerciso uno",
+              "reponses": [
+                {
+                  "id": 2,
+                  "valide": true,
+                  "contenu": "Vivamus in vehicula velit, ut fermentum libero."
+                },
+                {
+                  "id": 3,
+                  "valide": false,
+                  "contenu": "Quisque vulputate pharetra lectus nec molestie."
+                }
+              ],
+            },
+            {
+              "numero" : 2 ,
+              "titre" : "exerciso dose",
+              "reponses": [
+                {
+                  "id": 4,
+                  "valide": true,
+                  "contenu": "Nulla fermentum leo non dignissim dapibus."
+                },
+                {
+                  "id": 5,
+                  "valide": false,
+                  "contenu": "Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_sous_partie" : "node_c1_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c1_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c1_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c1_sp5",
+          "titre" : "chapitre 1 sp5",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c1_sp6",
+          "titre" : "chapitre 1 sp6",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "node_c2",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "node_c2_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c2_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c2_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c2_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "node_c3",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "node_c3_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c3_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c3_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c3_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "node_c4",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "node_c4_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c4_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c4_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c4_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "node_c5",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "node_c5_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c5_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c5_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c5_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "node_c6",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "node_c6_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c6_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c6_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "node_c6_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    }
+  ]
+};
+
+
+
+let plugData_MongoDB = {
+  _id: "5",
+  "title": "Apprenez à programmer en MongoDB",
+  "durée": "8:47",
+  "niveau": "3",	//(le niveau sera compris entre 1 et 3 -> facile, moyen, difficile)
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit scelerisque congue. Vivamus pharetra tempor urna. Ut dapibus tristique ultricies. Duis ut ipsum congue, rhoncus purus et, luctus urna. Suspendisse fringilla auctor ligula, nec volutpat justo accumsan vitae. Suspendisse potenti. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  "auteur": "Alexandre Mailliu",
+  "imageURL": "https://i.ytimg.com/vi/BCr7y4SLhck/maxresdefault.jpg",
+  "visible": true,
+  "chapitres": [
+    {
+      "id_chapitre" : "mongodb_c1",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "mongodb_c1_sp1",
+          "titre" : "chapitre 1 sp1",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo. Nam vitae dictum nulla, in venenatis tellus. Donec rutrum elit nisl, vitae cursus est semper eu. Vivamus in vehicula velit, ut fermentum libero. Aenean tincidunt nibh nulla, quis bibendum risus aliquam a. Fusce posuere elit velit. Suspendisse bibendum massa eu arcu vulputate, ac pretium sapien fermentum. Nulla facilisi. Fusce lectus nibh, cursus et massa quis, sollicitudin viverra augue. Nunc ultrices lectus elit, vitae sollicitudin lacus varius nec. Fusce finibus efficitur auctor. Donec sed elementum odio. Quisque vulputate pharetra lectus nec molestie. Pellentesque vitae ex est. Nulla fermentum leo non dignissim dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem. Nam elementum at nisi et feugiat. Nulla varius vel turpis in placerat. Praesent et tincidunt magna, a interdum tortor. Ut egestas purus nibh, sed dapibus sapien sollicitudin non. Nam felis lorem, bibendum eu nisi placerat, congue faucibus erat. Quisque congue a nibh at aliquam. In sem eros, vehicula eu faucibus sed, scelerisque et erat. Donec pretium est vitae dolor varius euismod. Integer consequat efficitur ipsum, id placerat tellus sollicitudin vel. Donec condimentum justo arcu, quis convallis urna consequat sit amet. Duis commodo tortor quis velit varius, in euismod diam consequat. Maecenas semper ipsum sed mauris luctus blandit. Aliquam sapien nunc, laoreet sed ante ut, luctus fermentum urna. Suspendisse eros mi, ullamcorper ut nisl facilisis, rhoncus pulvinar est. Cras tempus pharetra commodo. Sed elit dolor, dignissim id tortor sit amet, mollis aliquam lacus. Maecenas hendrerit, mauris vitae ultricies hendrerit, felis nunc porta metus, convallis consequat purus metus a libero. Phasellus pellentesque a massa sit amet egestas. Nunc viverra eros ac sem vulputate tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce congue nunc vitae purus dictum interdum. Nam elementum elit velit. Maecenas quis sem non velit pretium placerat. Aliquam a tristique orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat et nunc eget facilisis. In pharetra commodo arcu vel dignissim. Cras eu viverra eros. Phasellus lobortis lectus vel tortor hendrerit, nec porttitor orci ornare. Praesent fermentum vehicula mi, in dapibus mi vulputate sit amet. Vivamus eget ipsum congue, pharetra tortor vitae, aliquam erat. Cras placerat volutpat placerat. Nunc a vehicula nunc. Mauris tincidunt dapibus scelerisque. Nulla pretium pharetra erat quis semper. Proin tempor pretium placerat. ",
+          "exercice" : [
+            {
+              "numero" : 1,
+              "titre" : "exerciso uno",
+              "reponses": [
+                {
+                  "id": 2,
+                  "valide": true,
+                  "contenu": "Vivamus in vehicula velit, ut fermentum libero."
+                },
+                {
+                  "id": 3,
+                  "valide": false,
+                  "contenu": "Quisque vulputate pharetra lectus nec molestie."
+                }
+              ],
+            },
+            {
+              "numero" : 2 ,
+              "titre" : "exerciso dose",
+              "reponses": [
+                {
+                  "id": 4,
+                  "valide": true,
+                  "contenu": "Nulla fermentum leo non dignissim dapibus."
+                },
+                {
+                  "id": 5,
+                  "valide": false,
+                  "contenu": "Pellentesque orci ante, tincidunt sed suscipit vitae, convallis ac sem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id_sous_partie" : "mongodb_c1_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c1_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c1_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c1_sp5",
+          "titre" : "chapitre 1 sp5",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c1_sp6",
+          "titre" : "chapitre 1 sp6",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "mongodb_c2",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "mongodb_c2_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c2_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c2_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c2_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "mongodb_c3",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "mongodb_c3_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c3_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c3_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c3_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "mongodb_c4",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "mongodb_c4_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c4_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c4_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c4_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "mongodb_c5",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "mongodb_c5_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c5_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c5_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c5_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    },
+    {
+      "id_chapitre" : "mongodb_c6",
+      "sous-parties": [
+        {
+          "id_sous_partie" : "mongodb_c6_sp1",
+          "titre" : "lorem",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c6_sp2",
+          "titre" : "chapitre 1 sp2",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c6_sp3",
+          "titre" : "chapitre 1 sp3",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        },
+        {
+          "id_sous_partie" : "mongodb_c6_sp4",
+          "titre" : "chapitre 1 sp4",
+          "contenu" : "Sed quis mi ut velit congue pellentesque vel vitae leo.",
+        }
+      ]
+    }
+  ]
+};
+
+db.oeuvres.insert(plugData_TypeScript)
+db.oeuvres.insert(plugData_JavaScript)
+db.oeuvres.insert(plugData_React)
+db.oeuvres.insert(plugData_Node)
+db.oeuvres.insert(plugData_MongoDB)
