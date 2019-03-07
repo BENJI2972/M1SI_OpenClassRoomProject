@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class LessonPresentationSheet extends Component {
 
@@ -17,6 +18,7 @@ class LessonPresentationSheet extends Component {
   render() {
     return (
     
+              <Link to={'/lessondetail/'+this.props.lessonJSON._id+'/'+this.props.lessonJSON['chapitres'][0].id_chapitre}>
       <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 LessonPresentationSheet_container">
         <div className="LessonPresentationSheet">
           <div className="LessonPresentationSheetTitle">{this.props.lessonJSON.title}</div>
@@ -25,6 +27,7 @@ class LessonPresentationSheet extends Component {
           <img src={this.props.lessonJSON.imageURL} alt={this.props.lessonJSON.imageURL}></img>
         </div>
       </div>
+              </Link>
     );
   }
 }
@@ -74,9 +77,7 @@ class LessonList extends Component {
                           <div key={lesson_item._id}>{this.renderLessonPresentationSheet(lesson_item)}</div>
                         )}
                     </div>
-                  ) 
-                  : 
-                  (
+                  ) : (
                     <div>
                       <h2>No List Items Found</h2>
                     </div>

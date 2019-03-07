@@ -70,6 +70,8 @@ class LessonDetailSheet extends Component {
           <br/>
             <div className="LessonDetailSheetTitle">{this.props.lessonJSON.title}</div>
           <br/>
+            <div className="LessonDetailSheetTitle">Chapitre : {this.props.chapter_id}</div>
+          <br/>
             {this.renderInfoBar()}
           <br/>
             <div className="LessonDetailSheetIntro">{this.props.lessonJSON.intro}</div>
@@ -124,7 +126,7 @@ class LessonDetail extends Component {
   render() {
     return (
       <div className="LessonDetail" >
-        <h2>Chapitre : {this.state.chapter_id}</h2>
+      {/*<h2>Chapitre : {this.state.chapter_id}</h2>*/}
         <div className="container-fluid">
           <div className="row">
               {/* Check to see if any items are found*/}
