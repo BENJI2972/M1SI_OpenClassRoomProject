@@ -7,10 +7,10 @@ var neo4j = require('neo4j-driver').v1;
 
 
 //connexion UBO
-//const driver = neo4j.driver("bolt://obiwan2.univ-brest.fr:7687");
+const driver = neo4j.driver("bolt://obiwan2.univ-brest.fr:7687");
 
 //Connection localhost
-var driver = neo4j.driver("bolt://localhost:7687", neo4j.auth.basic("neo4j", "neo5j"));
+//var driver = neo4j.driver("bolt://localhost:7687", neo4j.auth.basic("", ""));
 
 /**
  * this class handles the CRUD basic operations to the neo4j database
@@ -224,8 +224,10 @@ var Neo4jDB_Operations = (function () {
 exports.Neo4jDB_Operations = Neo4jDB_Operations;
 
 function test1(){
-	//let url ="bolt://obiwan2.univ-brest.fr:7474";
-	let url ="bolt://localhost:7687";
+	let url ="bolt://obiwan2.univ-brest.fr:7474";
+	
+	//Si connexion localhost
+	//let url ="bolt://localhost:7687";
 	
     let neo4jDB_Operations = new Neo4jDB_Operations(url);
 	
@@ -276,5 +278,4 @@ function test1(){
 }
 
 
-test1();
-
+//test1();
