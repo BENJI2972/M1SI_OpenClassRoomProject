@@ -29,6 +29,16 @@ define(["require", "exports", "mysql"], function (require, exports, mysql) {
 				miseAJourReact(rows);
             });
         };
+        MariaDb_Operations.prototype.listerOneUser = function (connexionMariaDb, listVariable, callback,miseAJourReact) {
+            connexionMariaDb.query('SELECT * FROM Utilisateur WHERE u_idUtilisateur=?', listVariable,function (err, rows) {
+                console.log("error--" + err);
+                //console.log(rows);
+                var data = rows;
+                console.log("SELECT OK\n");
+                callback();
+                miseAJourReact(rows);
+            });
+        };
         MariaDb_Operations.prototype.listerSuivi = function (connexionMariaDb, listVariable, callback) {
             connexionMariaDb.query('SELECT * FROM SuiviCour', function (err, rows) {
                 console.log("error--" + err);

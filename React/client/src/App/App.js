@@ -6,6 +6,7 @@ import List from './pages/List';
 import User from './pages/User';
 import LessonList from './pages/LessonList';
 import LessonDetail from './pages/LessonDetail';
+import connexion from './pages/login';
 
 class App extends Component {
   render() {
@@ -17,6 +18,8 @@ class App extends Component {
 		      <Route path='/user' component={User}/>
 		      <Route path='/lessonlist' component={LessonList}/>
 		      <Route path='/lessondetail/:lesson_id/:chapter_id' component={LessonDetail}/>
+          <Route path='/user/:id' component={User}/>
+          <Route path='/connexion' component={connexion}/>
         </Switch>
       </div>
     )

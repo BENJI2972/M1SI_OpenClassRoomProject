@@ -4,19 +4,24 @@ import React, { Component } from 'react';
 class User extends Component {
 	constructor(props){
     super(props);
-    this.state = {list: []}
+    this.state = {list: [], id : ''};
   }
 
   // Fetch the list on first mount
   componentDidMount() {
-    this.getList();
+    const { id } = this.props.match.params
+    this.setState({id : `${id}`});
+    this.getUser();
   }
 
   // Retrieves the list of items from the Express app
-  getList = () => {
-    fetch('/user')
+  getUser = () => {
+    fetch(`/user/${this.id}`)
     .then(response => response.json())
-		.then((responseJson) => { this.setState( { list: responseJson });})
+		.then((responseJson) => {
+      this.setState( { list: responseJson });
+      console.log(this.state.list);
+    })
 		.catch((error) => { console.error(error); });
   }
 
@@ -29,7 +34,7 @@ class User extends Component {
         {this.state.list.length ? (
           <div>
 							{this.state.list.map(user =>
-								<div key={user.title}>{user.title}</div>
+								<div key={user.u_idUtilisateur}>{user.u_idUtilisateur}{user.u_nom}</div>
 							)}
           </div>
         ) : (
