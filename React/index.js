@@ -5,9 +5,12 @@ const mariaDb_Operations = require('./MariaDb_Operations');
 const mariaDb = new mariaDb_Operations.MariaDb_Operations('obiwan2.univ-brest.fr','zfl3-zquillivi', 'zquillivi', 'hcgbhhhb');
 const mongoDB_Operations = require('./MongoDB_Operations');
 
-let url = 'mongodb://localhost:27017'; // alex home
-let dbName = 'alexsi'; // alex home
-let collectionName = "oeuvres";
+//let url = 'mongodb://localhost:27017'; // alex home
+//let dbName = 'alexsi'; // alex home
+//let collectionName = "oeuvres"; // alex home
+let url = 'mongodb://localhost:27017'; // alex obiwan2
+let dbName = 'M1_MAILLIU_Alexandre'; // alex obiwan2
+let collectionName = "oeuvres"; // alex obiwan2
 let mongodb = new mongoDB_Operations.MongoDB_Operations(url, dbName, collectionName);
 
 const app = express();
